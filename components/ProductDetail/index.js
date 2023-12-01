@@ -36,13 +36,21 @@ export default function ProductDetail({navigation, route}) {
                         <Text style={{fontSize: 20, fontWeight: "600"}}>30 Min</Text>
                     </View>
                     
+                    <View style={{flexDirection: "row", alignItems: "center"}}>
+                        <Pressable style={{alignItems: "center", justifyContent: "center"}}><Text 
+                            style={{width: 21, height: 21, backgroundColor: "#F1B000", textAlign: "center", fontSize: 18, color: "#fff"}}
+                        >-</Text></Pressable>
+                        <Text style={{fontSize: 17, fontWeight: "600", marginHorizontal: 10}}>{quantity}</Text>
+                        <Pressable style={{alignItems: "center", justifyContent: "center"}}><Text
+                            style={{width: 21, height: 21, backgroundColor: "#F1B000", textAlign: "center", fontSize: 18, color: "#fff"}}
+                        >+</Text></Pressable>
+                    </View>
 
 
 
 
 
 
-                    
                   
                     
                 </View>
